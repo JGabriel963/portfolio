@@ -20,7 +20,7 @@ export function Skills() {
             <SkillGroupCard
               key={group.title}
               group={group}
-              revealDelay={index as 0 | 1 | 2}
+              revealDelay={Math.min(index, 6) as 0 | 1 | 2 | 3 | 4 | 5 | 6}
             />
           ))}
         </div>

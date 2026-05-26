@@ -31,11 +31,11 @@ export function Contact() {
               </div>
               <div className="contact-meta-row">
                 <span className="k">Local</span>
-                <span className="v">Teresina, PI · UTC−3</span>
+                <span className="v">Teresina, PI</span>
               </div>
               <div className="contact-meta-row">
                 <span className="k">Status</span>
-                <span className="v accent">● Disponível para projetos</span>
+                <span className="v accent">● Disponível</span>
               </div>
             </div>
 

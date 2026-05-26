@@ -15,10 +15,12 @@ export function SkillGroupCard({ group, revealDelay = 0 }: Props) {
         <span className="skill-group-num">{group.num}</span>
       </div>
       <div className="skill-list">
-        {group.items.map((item) => (
-          <a key={item.name} className="skill-pill">
-            <span className="skill-icon">{item.icon}</span>
-            {item.name}
+        {group.items.map(({ name, Icon }) => (
+          <a key={name} className="skill-pill">
+            <span className="skill-icon" aria-hidden="true">
+              <Icon width={16} height={16} />
+            </span>
+            {name}
           </a>
         ))}
       </div>

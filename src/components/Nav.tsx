@@ -30,7 +30,7 @@ export function Nav() {
       <div className="container nav-inner">
         <a href="#top" className="brand">
           <span className="brand-mark">JG</span>
-          <span>joão gabriel</span>
+          <span className="sr-only">joão gabriel</span>
         </a>
         <nav className="nav-links" aria-label="Seções">
           {navLinks.map((link) => (

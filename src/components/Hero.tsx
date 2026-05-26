@@ -20,7 +20,7 @@ export function Hero() {
           </h1>
 
           <div className="hero-role reveal delay-2">
-            Desenvolvedor Full-Stack · São Paulo, BR
+            Desenvolvedor Full-Stack · Teresina, PI
           </div>
 
           <p className="hero-bio reveal delay-3">

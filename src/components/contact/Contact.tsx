@@ -2,7 +2,9 @@ import { SectionHead } from "../SectionHead";
 import { GithubIcon, LinkedInIcon, MailIcon } from "../icons";
 import { ContactForm } from "./ContactForm";
 
-const CONTACT_EMAIL = "ola@joaogabriel.dev";
+const CONTACT_EMAIL = "joaogabriel9633@gmail.com";
+const GITHUB_URL = "https://github.com/JGabriel963";
+const LINKEDIN_URL = "https://www.linkedin.com/in/jgabriel963/";
 
 export function Contact() {
   return (
@@ -29,19 +31,31 @@ export function Contact() {
               </div>
               <div className="contact-meta-row">
                 <span className="k">Local</span>
-                <span className="v">São Paulo, BR · UTC−3</span>
+                <span className="v">Teresina, PI</span>
               </div>
               <div className="contact-meta-row">
                 <span className="k">Status</span>
-                <span className="v accent">● Disponível para projetos</span>
+                <span className="v accent">● Disponível</span>
               </div>
             </div>
 
             <div className="socials" aria-label="Redes sociais">
-              <a href="#" className="social-btn" aria-label="GitHub">
+              <a
+                href={GITHUB_URL}
+                className="social-btn"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <GithubIcon />
               </a>
-              <a href="#" className="social-btn" aria-label="LinkedIn">
+              <a
+                href={LINKEDIN_URL}
+                className="social-btn"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <LinkedInIcon />
               </a>
               <a href={`mailto:${CONTACT_EMAIL}`} className="social-btn" aria-label="Email">
